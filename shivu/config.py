@@ -5,7 +5,7 @@ class Config(object):
     OWNER_ID = "7202072688"
     sudo_users = "7222795580", "6180999156", "7202072688",
     GROUP_ID = -1001548130580
-    TOKEN = "6862816736:AAEpfKqiIbeajsUyoqofBhtmayY1HAzjeYY"
+    TOKEN = "6862816736:AAGemIM0KAkIxjRb4vcUkpgRnd8jITg9_eI"
     mongo_url = "mongodb+srv://pythoncux:pythoncux@cluster0.tl7krxg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     PHOTO_URL = ["https://telegra.ph/file/8d9c4af9b7705b1aafc99.jpg", "https://telegra.ph/file/8d9c4af9b7705b1aafc99.jpg"]
     SUPPORT_CHAT = "PhiloMusicSupport"
