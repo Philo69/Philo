@@ -132,11 +132,11 @@ async def update(update: Update, context: CallbackContext) -> None:
         if args[1] in ['name', 'anime']:
             new_value = args[2].replace('-', ' ').title()
         elif args[1] == 'rarity':
-            rarity_map = {1: "⚪ Common", 2: "🟣 Rare", 3: "🟡 Legendary", 4: "🟢 Medium", 5: "💮 Special edition"}
+            rarity_map = {1: "🕊️ Common", 2: "🌟 Epic", 3: "🍷 Legendary", 4: "🔮 Mythical"
             try:
                 new_value = rarity_map[int(args[2])]
             except KeyError:
-                await update.message.reply_text('Invalid rarity. Please use 1, 2, 3, 4, or 5.')
+                await update.message.reply_text('Invalid rarity. Please use 1, 2, 3, 4 ')
                 return
         else:
             new_value = args[2]
